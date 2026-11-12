@@ -25,7 +25,7 @@ body {
 .verification-frame {
   display: block;
   width: 100%;
-  height: 700px;
+  height: 360px;
   border: 0;
   background: #050505;
 }
@@ -40,7 +40,7 @@ body {
 
 @media (max-width: 600px) {
   .verification-frame {
-    height: 760px;
+    height: 400px;
   }
 
   .counter-frame {
