@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #050505;
+}
+
+body {
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.interface {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background: #050505;
+}
+
+.verification-frame {
+  display: block;
+  width: 100%;
+  height: 700px;
+  border: 0;
+  background: #050505;
+}
+
+.counter-frame {
+  display: block;
+  width: 100%;
+  height: 310px;
+  border: 0;
+  background: #050505;
+}
+
+@media (max-width: 600px) {
+  .verification-frame {
+    height: 760px;
+  }
+
+  .counter-frame {
+    height: 390px;
+  }
+}
